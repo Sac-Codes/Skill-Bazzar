@@ -57,21 +57,7 @@ export const teamData: TeamMember[] = [
     role: 'Coder & Developer',
     contribution:
       'Designed event visuals and premium UI elements, transforming ideas into cohesive graphics with consistent branding.',
-    image: 'data:image/svg+xml;utf8,' + encodeURIComponent(`
-      <svg xmlns='http://www.w3.org/2000/svg' width='256' height='256'>
-        <defs>
-          <radialGradient id='g' cx='30%' cy='30%' r='80%'>
-            <stop offset='0%' stop-color='#FB923C'/>
-            <stop offset='55%' stop-color='#EA580C'/>
-            <stop offset='100%' stop-color='#0A0F1C'/>
-          </radialGradient>
-        </defs>
-        <rect width='256' height='256' rx='128' fill='url(#g)'/>
-        <circle cx='128' cy='112' r='44' fill='rgba(255,255,255,0.22)'/>
-        <rect x='56' y='150' width='144' height='56' rx='28' fill='rgba(255,255,255,0.18)'/>
-        <path d='M78 208c18-28 82-28 100 0' fill='none' stroke='rgba(255,255,255,0.22)' stroke-width='10' stroke-linecap='round'/>
-      </svg>
-    `),
+    image: 'src/assets/Sac Profile IMG.jpg',
     accentColor: '#F97316',
   },
   {
