@@ -48,7 +48,7 @@ export const teamData: TeamMember[] = [
     role: 'Graphic Designer',
     contribution:
       'Built responsive UI components in React, ensuring smooth routing, accessibility, and consistent premium styling across pages.',
-    image: '../assets/Megha C-1.jpg',
+    image: '/src/assets/Megha C-1.jpg',
     accentColor: '#10B981',
   },
   {
