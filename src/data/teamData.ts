@@ -48,7 +48,7 @@ export const teamData: TeamMember[] = [
     role: 'Graphic Designer',
     contribution:
       'Built responsive UI components in React, ensuring smooth routing, accessibility, and consistent premium styling across pages.',
-    image: 'src/assets/Megha C-1.jpg',
+    image: '/src/assets/Megha C-1.jpg',
     accentColor: '#10B981',
   },
   {
@@ -57,7 +57,7 @@ export const teamData: TeamMember[] = [
     role: 'Coder & Developer',
     contribution:
       'Designed event visuals and premium UI elements, transforming ideas into cohesive graphics with consistent branding.',
-    image: 'src/assets/Sac Profile IMG.jpg',
+    image: '/src/assets/Sac Profile IMG.jpg',
     accentColor: '#F97316',
   },
   {
@@ -66,7 +66,7 @@ export const teamData: TeamMember[] = [
     role: 'Developer',
     contribution:
       'Led the complete planning, development, branding, and technical implementation of the SkillVerse digital platform.',
-    image: 'src/assets/manu_sb.png',
+    image: '/src/assets/manu_sb.png',
     accentColor: '#7C3AED',
   },
   {
@@ -75,7 +75,7 @@ export const teamData: TeamMember[] = [
     role: 'Marketing',
     contribution:
       'Coordinated promotion strategy across channels, aligning messaging, updates, and stakeholder engagement for SkillVerse 2026.',
-    image: 'src/assets/suyash_sb.png',
+    image: '/src/assets/suyash_sb.png',
     accentColor: '#3B82F6',
   },
 ];
