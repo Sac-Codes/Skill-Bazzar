@@ -5,7 +5,7 @@ import samImage from '../assets/sam_cs.JPG';
 import nitinImage from '../assets/nitin_vbh.JPG';
 import suyashImage from '../assets/suyash_ds.JPG';
 import gurudevImage from '../assets/gurudev_cus.JPG';
-import rajlaxmiImage from '/src/assets/rajlaxmi_vhg.JPG';
+import rajlaxmiImage from '../assets/rajlaxmi_vhg.JPG';
 
 export interface TeamMember {
   id: string;
