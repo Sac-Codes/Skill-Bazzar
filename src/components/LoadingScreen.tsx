@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import skillBazaarLogo from '../assets/Skill_bazaar_logo.png';
 
 const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
   const [progress, setProgress] = useState(0);
@@ -46,14 +47,14 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
           <div className="relative w-24 h-24 mb-8">
             <div className="absolute inset-0 bg-primary/20 rounded-2xl rotate-6 animate-pulse-slow"></div>
             <div className="absolute inset-0 rounded-2xl shadow-2xl overflow-hidden">
-              <img src="/src/assets/Skill_bazaar_logo.png" alt="Skill Bazaar logo" className="w-full h-full object-cover" />
+              <img src={skillBazaarLogo} alt="SkillVerse logo" className="w-full h-full object-cover" />
             </div>
             {/* Shimmer effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full animate-[shimmer_2s_infinite]"></div>
           </div>
           
           <h1 className="text-3xl font-heading font-bold text-gray-900 mb-2 tracking-tight">
-            Skill Bazaar
+            Bazaar-E-Hunar 2026
           </h1>
           <p className="text-sm text-gray-500 uppercase tracking-widest font-semibold mb-12">
             Loading Experience
